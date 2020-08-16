@@ -1,0 +1,76 @@
+div{
+    color: white;
+    width: 400px; 
+    position: absolute; 
+    left: 55%; 
+    margin-left: -200px;
+    top:50%;
+    margin-top:-120px;
+    
+}
+
+
+
+.name,.greeting{
+    display: none;
+    color: white;
+    width: 400px; 
+    position: absolute; 
+    left: 55%; 
+    margin-left: -200px;
+    top:55%;
+    margin-top:-120px;
+}
+.todo{
+    color: white;
+    width: 400px; 
+    position: absolute; 
+    left: 54.5%; 
+    margin-left: -200px;
+    top:58%;
+    margin-top:-120px;
+}
+.toDoList{
+    color: white;
+    width: 400px; 
+    position: absolute; 
+    left: 54.5%; 
+    margin-left: -200px;
+    top:60%;
+    margin-top:-120px;
+    
+}
+
+.weather{
+    font-weight: bolder;
+    color: mediumaquamarine;
+    width: 400px;
+    position: absolute;
+    right:5%;
+    margin-right: -200px;
+}
+
+
+.showing{
+    display:block;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+  }
